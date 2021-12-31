@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECEE9F33-D33A-4D67-B1FF-C6C11AEF16A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reflection", "reflection", "{4EE42C2F-FD83-441F-8674-599E44A45E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionConsoleApp", "src\reflection\ReflectionConsoleApp\ReflectionConsoleApp.csproj", "{68E11EB7-995D-4861-9455-2AE2F86164F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68E11EB7-995D-4861-9455-2AE2F86164F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E11EB7-995D-4861-9455-2AE2F86164F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E11EB7-995D-4861-9455-2AE2F86164F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E11EB7-995D-4861-9455-2AE2F86164F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EE42C2F-FD83-441F-8674-599E44A45E7A} = {ECEE9F33-D33A-4D67-B1FF-C6C11AEF16A7}
+		{68E11EB7-995D-4861-9455-2AE2F86164F5} = {4EE42C2F-FD83-441F-8674-599E44A45E7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C68B7DCF-8FC9-4D97-8371-E60263435890}
+	EndGlobalSection
+EndGlobal
